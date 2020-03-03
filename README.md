@@ -1,6 +1,4 @@
 
-### Deployment
-
 [netlify-deployment-link](https://5e5e4c576ee97501e90f3a7b--s0rting-visualizer.netlify.com/)
 
 <img src="./sort.jpg">
