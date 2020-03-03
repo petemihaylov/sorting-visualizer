@@ -1,0 +1,31 @@
+.array-container{
+    height: 80vh;
+    margin-top: 10vh;
+}
+
+.array-bar{
+    width: 5px;
+    background-color: rgb(226, 99, 99);
+    display: inline-block;
+    margin: 0 1px;
+}
+
+button{
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    outline:none;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s;
+    padding: 5px 30px;
+    cursor: pointer;
+    margin: 0 5px;
+    border: solid 1px white;
+    background: rgb(99, 99, 99);
+    color: rgb(238, 238, 238);
+}
+
+button:hover{
+    transition: 0.3s;
+    background: gray;
+}
