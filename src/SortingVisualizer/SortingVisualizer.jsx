@@ -21,7 +21,9 @@ export default class SortingVisualizer extends React.Component {
             array.push(randomIntFromInterval(5, 600));
         }
         this.setState({array});
+        resetColors();
     }
+
 
     mergeSort(){
         
@@ -65,7 +67,6 @@ export default class SortingVisualizer extends React.Component {
                 }, i * 10);
             }
         }
-
     }
 
     heapSort(){
@@ -102,7 +103,6 @@ export default class SortingVisualizer extends React.Component {
             }
         }
     }
-    
 
     bubbleSort(){
         const anim =  sortingAlgorithms.bubbleSort(this.state.array);
@@ -137,7 +137,7 @@ export default class SortingVisualizer extends React.Component {
             
         }
     }
-    
+
     testSortingAlgorithms(){
         // heapSort return array of animations not the sorted array
         
@@ -161,12 +161,15 @@ export default class SortingVisualizer extends React.Component {
             </div>
 
             <button onClick={ () => this.resetArray()}>Generate New</button>
-            <button onClick={ () => this.testSortingAlgorithms()}>Test</button>
+
             
-            <button onClick={ () => this.mergeSort()}>Merge Sort</button>
             <button onClick={ () => this.quickSort()}>Quick Sort</button>
             <button onClick={ () => this.heapSort()}>Heap Sort</button>
             <button onClick={ () => this.bubbleSort()}>Bubble Sort</button>
+            <button onClick={ () => this.mergeSort()}>Merge Sort</button>
+
+                    
+            {/* <button onClick={ () => this.testSortingAlgorithms()}>Test</button> */}
             </div>
          );
     } 
@@ -183,4 +186,9 @@ function arraysAreEqual(arrOne, arrTwo){
         if(arrOne[i] !== arrTwo[i])return false;
     }
     return true;
+}
+
+function resetColors(){
+    const arrayBars = document.querySelectorAll('.array-bar');
+    arrayBars.forEach(e => e.style.backgroundColor = "rgb(226, 99, 99)");
 }
