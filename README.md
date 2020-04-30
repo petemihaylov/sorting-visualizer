@@ -8,9 +8,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Usage
 
 Install node modules 
+
 `npm install`
 
-Run the projectnp
+Start the project
+ 
  `npm start`
 
 Runs the app in the development mode.<br />
