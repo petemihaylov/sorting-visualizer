@@ -180,14 +180,6 @@ function randomIntFromInterval(min, max) { // min and max included
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
-function arraysAreEqual(arrOne, arrTwo){
-    if(arrOne.length !== arrTwo.length) return false;
-    for(let i = 0; i < arrOne.length; i++){
-        if(arrOne[i] !== arrTwo[i])return false;
-    }
-    return true;
-}
-
 function resetColors(){
     const arrayBars = document.querySelectorAll('.array-bar');
     arrayBars.forEach(e => e.style.backgroundColor = "rgb(226, 99, 99)");
