@@ -3,7 +3,7 @@
 This project was bootstrapped with [React](https://github.com/facebook/create-react-app).
 It is a  client-side application for sorting visualization.
 
-https://mystifying-hypatia-b474db.netlify.app/)
+[Demo on Netlify](https://mystifying-hypatia-b474db.netlify.app/)
 
 ### Usage
 
