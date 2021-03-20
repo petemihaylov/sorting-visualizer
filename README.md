@@ -1,8 +1,9 @@
-[netlify-deployment-link](https://mystifying-hypatia-b474db.netlify.app/)
-
 <img src="./sort.jpg">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [React](https://github.com/facebook/create-react-app).
+It is a  client-side application for sorting visualization.
+
+https://mystifying-hypatia-b474db.netlify.app/)
 
 ### Usage
 
