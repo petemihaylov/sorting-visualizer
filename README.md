@@ -1,22 +1,26 @@
 <img src="./sort.jpg">
 
-This project was bootstrapped with [React](https://github.com/facebook/create-react-app).
-It is a  client-side application for sorting visualization.
+## [Sorting Visualizer](https://mystifying-hypatia-b474db.netlify.app/)
 
-[Demo on Netlify](https://mystifying-hypatia-b474db.netlify.app/)
+
+It is **a client-side** application for **sorting algorithms animations** bootstrapped with [React](https://github.com/facebook/create-react-app).
+By displaying the **advantages and disadvantages** of each algorithm, these visualizations are intended to demonstrate how each algorithms perform and that there is no best sorting algorithm. It is used [Netlify](https://www.netlify.com/) with the intention to build, deploy and host the application.
 
 ### Usage
 
 Install node modules
-
-`npm install`
+```bash
+npm install
+```
 
 Start the project
+```bash
+npm start
+```
 
-`npm start`
+### Contributing
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### License
+[MIT](https://github.com/pepsm/Sorting-Visualizer/blob/master/LICENSE)
