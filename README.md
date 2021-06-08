@@ -1,4 +1,4 @@
-<img src="./sort.jpg">
+<img src="./sort.gif">
 
 ## [Sorting Visualizer](https://mystifying-hypatia-b474db.netlify.app/)
 
